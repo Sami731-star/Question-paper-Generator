@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Question Paper Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app">
+    <!-- FORM PANEL -->
+    <section class="panel">
+        <h1>Question Paper Generator</h1>
+        <p class="tagline">Design professional exam papers instantly</p>
+
+        <form id="paperForm">
+            <h3>Exam Information</h3>
+            <input type="text" id="university" placeholder="University / Institution" required>
+            <input type="text" id="examName" placeholder="Exam Name" required>
+            <input type="text" id="subject" placeholder="Subject Name">
+            <input type="text" id="className" placeholder="Class / Semester">
+            <input type="number" id="time" placeholder="Duration (Minutes)">
+            <input type="number" id="totalMarks" placeholder="Total Marks">
+
+            <h3>Instructions</h3>
+            <textarea id="instructions" placeholder="General instructions (one line per instruction)"></textarea>
+
+            <h3>Questions</h3>
+            <textarea id="mcq" placeholder="MCQ Questions (one per line)"></textarea>
+            <input type="number" id="mcqMarks" placeholder="Marks per MCQ">
+
+            <textarea id="shortQ" placeholder="Short Questions (one per line)"></textarea>
+            <input type="number" id="shortMarks" placeholder="Marks per Short Question">
+
+            <textarea id="longQ" placeholder="Long Questions (one per line)"></textarea>
+            <input type="number" id="longMarks" placeholder="Marks per Long Question">
+
+            <button type="submit">Generate Paper</button>
+        </form>
+    </section>
+
+    <!-- PREVIEW PANEL -->
+    <section class="preview" id="preview">
+        <div class="paper">
+            <header>
+                <h2 id="outUniversity"></h2>
+                <h3 id="outExam"></h3>
+                <p id="outMeta"></p>
+            </header>
+
+            <div id="outInstructions"></div>
+            <hr>
+
+            <div id="outMCQ"></div>
+            <div id="outShort"></div>
+            <div id="outLong"></div>
+
+            <button onclick="window.print()" class="print-btn">Print / Save PDF</button>
+        </div>
+    </section>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
