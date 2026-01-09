@@ -85,11 +85,8 @@ No installation or server setup required.
 
 ---
 
-## 📸 Screenshots (Optional)
 
-*Add UI screenshots here to enhance presentation.*
 
----
 
 ## 🔮 Future Enhancements
 
@@ -102,16 +99,6 @@ No installation or server setup required.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome!
-
-Please read **docs/CONTRIBUTING.md** before contributing:
-
-* Fork the repository
-* Create a feature branch
-* Commit your changes
-* Submit a pull request
 
 ---
 
