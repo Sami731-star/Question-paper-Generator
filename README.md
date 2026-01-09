@@ -3,7 +3,7 @@ It is written to look **serious, academic, and portfolio-ready**.
 
 ---
 
-# 🎓 Advanced Question Paper Generator
+# 🎓  Question Paper Generator
 
 A modern, professional, and print-ready **web-based Question Paper Generator** designed to help educators and institutions create structured academic exam papers quickly and efficiently.
 
