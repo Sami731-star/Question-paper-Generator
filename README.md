@@ -69,24 +69,6 @@ QuestionPaperGenerator/
 
 ---
 
-## ▶️ Getting Started
-
-### Run Locally
-
-```bash
-git clone https://github.com/your-username/QuestionPaperGenerator.git
-```
-
-1. Open the project folder
-2. Launch `index.html` in any modern browser
-3. Fill in details and generate the question paper
-
-No installation or server setup required.
-
----
-
-
-
 
 ## 🔮 Future Enhancements
 
